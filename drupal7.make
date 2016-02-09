@@ -8,7 +8,7 @@ projects[drupal][download][type] = "get"
 ;projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.26.1.tar.gz"
 
 ;via Drupal.org
-projects[drupal][download][url] = "http://ftp.drupal.org/files/projects/drupal-7.41.tar.gz"
+projects[drupal][download][url] = "http://ftp.drupal.org/files/projects/drupal-7.42.tar.gz"
 
 
 ; Modules
@@ -159,6 +159,7 @@ projects[] = uuid
 projects[] = views
 projects[] = views_bulk_operations
 projects[] = views_data_export
+projects[] = views_datasource
 projects[] = views_field_view
 projects[] = views_megarow
 projects[] = views_slideshow
