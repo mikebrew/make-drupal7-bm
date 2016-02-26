@@ -84,6 +84,7 @@ projects[] = fontyourface
 projects[] = friendly_register
 projects[] = fullcalendar
 projects[] = geolocation
+projects[] = globalredirect
 projects[] = google_analytics
 projects[] = hierarchical_select
 projects[] = honeypot
@@ -221,7 +222,7 @@ libraries[flexslider][destination] = libraries
 libraries[flexslider][directory_name] = flexslider
 libraries[flexslider][download][branch] = master
 
-libraries[html5shiv][download][type] = git 
+libraries[html5shiv][download][type] = git
 libraries[html5shiv][download][url] = https://github.com/aFarkas/html5shiv.git
 libraries[html5shiv][destination] = libraries
 libraries[html5shiv][directory_name] = html5shiv
@@ -259,4 +260,3 @@ libraries[fullcalendar][directory_name] = fullcalendar
 
 ; Themes
 ;projects[omega][type] = theme
-
