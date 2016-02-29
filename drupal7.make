@@ -58,8 +58,8 @@ projects[] = diff
 projects[] = ds
 projects[] = easy_breadcrumb
 projects[] = email
-projects[] = email_auto_login
-projects[] = empty_page
+;projects[] = email_auto_login
+;projects[] = empty_page
 projects[] = entity
 projects[] = entitycache
 projects[] = entityform
@@ -80,17 +80,15 @@ projects[] = file_entity
 projects[] = flag
 projects[] = flag_files
 projects[] = flexslider
-projects[] = fontyourface
 projects[] = friendly_register
-projects[] = fullcalendar
 projects[] = geolocation
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = hierarchical_select
 projects[] = honeypot
 projects[] = hybridauth
-projects[] = imagecache_actions
-projects[] = imagefield_crop
+;projects[] = imagecache_actions
+;projects[] = imagefield_crop
 projects[] = imce
 projects[] = imce_filefield
 projects[] = imce_wysiwyg
@@ -115,14 +113,14 @@ projects[] = menu_token
 projects[] = menu_views
 projects[] = message
 projects[] = message_notify
-projects[] = metatags_quick
+;projects[] = metatags_quick
 projects[] = module_filter
 projects[] = node_export
 projects[] = node_noindex
 projects[] = nodeblock
 projects[] = nodejs
-projects[] = og
-projects[] = og_extras
+;projects[] = og
+;projects[] = og_extras
 projects[] = options_element
 projects[] = panels
 projects[] = panelizer
@@ -148,7 +146,7 @@ projects[] = services
 projects[] = smtp
 projects[] = special_menu_items
 projects[] = strongarm
-projects[] = storage_api
+;projects[] = storage_api
 projects[] = styleguide
 projects[] = superfish
 projects[] = support
@@ -169,6 +167,7 @@ projects[] = webform
 projects[] = webform_rules
 projects[] = weight
 projects[] = workflow
+projects[] = wysiwyg
 
 ;Referenced / not installed on all platforms
 ;projects[] = multiupload_filefield_widget
@@ -186,10 +185,6 @@ projects[] = workflow
 
 ;Install command
 ;drush dl multiupload_field_widget, webform_multifile, webform_validation, webform_rules, clone, field_conditional_state, galleryformatter, video, context_og, nodeaccess, og_menu, omega
-
-projects[wysiwyg][download][type] = "get"
-projects[wysiwyg][download][url] = http://ftp.drupal.org/files/projects/wysiwyg-7.x-2.2.tar.gz
-projects[wysiwyg][destination] = modules
 
 ; Libraries
 libraries[chosen][download][type] = git
@@ -252,10 +247,6 @@ libraries[hybridauth][destination] = libraries
 libraries[hybridauth][directory_name] = hybridauth
 libraries[hybridauth][download][branch] = master
 
-libraries[fullcalendar][type] = get
-libraries[fullcalendar][download][url] = https://github.com/arshaw/fullcalendar/releases/download/v2.1.1/fullcalendar-2.1.1.zip
-libraries[fullcalendar][destination] = libraries
-libraries[fullcalendar][directory_name] = fullcalendar
 
 
 ; Themes
