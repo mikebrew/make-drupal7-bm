@@ -21,6 +21,7 @@ projects[] = advanced_help
 projects[] = auto_nodetitle
 projects[] = backup_migrate
 projects[] = bean
+projects[] = better_exposed_filters
 projects[] = better_formats
 projects[] = block_class
 projects[] = bundle_copy
@@ -69,6 +70,7 @@ projects[] = eva
 projects[] = features
 projects[] = features_extra
 projects[] = feeds
+projects[] = feeds_jsonpath_parser
 projects[] = feeds_tamper
 projects[] = feeds_xpathparser
 projects[] = fences
@@ -246,6 +248,13 @@ libraries[hybridauth][download][url] = https://github.com/hybridauth/hybridauth.
 libraries[hybridauth][destination] = libraries
 libraries[hybridauth][directory_name] = hybridauth
 libraries[hybridauth][download][branch] = master
+
+libraries[jsonpath][type] = git
+libraries[jsonpath][download][url] = https://github.com/mikebrew/jsonpath.git
+libraries[jsonpath][destination] = libraries
+libraries[jsonpath][directory_name] = jsonpath
+libraries[jsonpath][download][branch] = master
+
 
 
 
